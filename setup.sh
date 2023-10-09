@@ -7,4 +7,4 @@ set -o errexit
 pip install -r requirements.txt
 
 ## Run migrations in case any migrations hadn't been run yet
-python manage.py migrate
+# python manage.py migrate
