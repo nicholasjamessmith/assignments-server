@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from sql import run_query
 
+
 # Load environment variables
 load_dotenv()
 
@@ -72,3 +73,4 @@ def delete_assignment(assignments_id):
 
 if __name__ == "__main__":
   app.run(debug=True, port=3000)
+# Adding comment to make sure I can push to github
