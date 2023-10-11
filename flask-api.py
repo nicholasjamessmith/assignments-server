@@ -2,13 +2,13 @@ from flask import Flask, request, jsonify
 import os
 from dotenv import load_dotenv
 from sql import run_query
-
+from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
-
+CORS(app)
 # Run this at the start to ensure the table exists
 def create_table():
   create_table_query = """
