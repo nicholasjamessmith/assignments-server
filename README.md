@@ -17,7 +17,10 @@ The backend server and API is written in Python using the Flask framwork. The da
 | Endpoint          | Method | Purpose                                                          |
 | ----------------- | ------ | ---------------------------------------------------------------- |
 | /assignments          | GET    | displays all assignments
-| /assignments/create   | POST   | displays form for new review   |
+| /assignments/create   | POST   | displays form for new assignment   |
 | /assignments/:id      | GET    | displays individual show page of an assignment                       |
 | /assignments/delete/:id| DELETE | deletes current assignment                                            |
 | /assignments/update/:id | PUT    | submits updated assignment info |
+
+## ERD
+![Entity Relationship Diagram](./media/erd.png)
